@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import Card from './Card'
 import './List.css'
+import renderer from 'react-test-renderer'
 
 const List = function(props){
   console.log(props.cards);
